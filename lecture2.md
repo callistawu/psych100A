@@ -38,7 +38,7 @@ Based on these data, do you think Westvaco's pattern of firings shows evidence o
 ## Modeling Data & DGP
 * fired = age + other stuff
 * what are some other possible models
-* **data = model+ + error**
+* **data = model + error**
 
 Based on the data, do you think the pattern of firings could be explained by a purely random DGP?
 
