@@ -11,7 +11,7 @@ What kind of data would we need to evaluate this claim?
 What makes a data structure tidy?
 * structure 1 is not tidy because each row is not an observation
 
-### Make a data frame
+## Make a data frame
 * name it Westvaco
 * start with two vectors, use data.frame( )
 * print out the data frame
@@ -23,8 +23,27 @@ westvaco <- data.frame(age,fired)
 westvaco
 ````
 
-### Visualize the distribution
+## Visualize the distribution
+* make a histogram of age
+* make a faceted histogram of age by fired
+* make a boxplot of age by fired
+
 ````
 gf_histogram(~ age, data=westvaco, fill="blue", binwidth=1)%>%
 gf_facet_grid(fired ~.)
 ````
+
+Based on these data, do you think Westvaco's pattern of firings shows evidence of age discrimination?
+
+## Modeling Data & DGP
+* fired = age + other stuff
+* what are some other possible models
+* **data = model+ + error**
+
+Based on the data, do you think the pattern of firings could be explained by a purely random DGP?
+
+**Key point:** you can't see evidence of randomness by just looking at a single outcome.
+(You have to flip a coin more than once to tell if it is fair.)
+
+## Simulating Randomness
+Adding in Sampling Distributions
