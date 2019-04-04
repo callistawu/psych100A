@@ -4,8 +4,12 @@
 
 What kind of data would we need to evaluate this claim?
 
-### Ages of employees in one department (**laid off**): 
-25, 33, 35, 38, 48, **55**, **55**, 55, 56, **64**
+| ages of employees in one department (~~laid off~~) |
+|:--------------------------------------------------:|
+| 25, 33, 35, 38, 48, ~~55~~, ~~55~~, 55, 56, ~~64~~ |
+
+What makes a data structure tidy?
+* structure 1 is not tidy because each row is not an observation
 
 ### Make a data frame
 * name it Westvaco
