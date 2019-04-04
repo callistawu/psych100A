@@ -1,2 +1,1 @@
-# psych100A
-my favorite letter is R
+# psych100A (spring 2019)
