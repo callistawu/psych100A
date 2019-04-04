@@ -1,2 +1,2 @@
 # psych100A
-ok this class is actually required for my major
+my favorite letter is R
