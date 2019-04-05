@@ -1,6 +1,6 @@
 # Lecture 1 (Week 1, Monday)
 
-* **Statistics** is the study of variation.
+* **statistics** is the study of variation
 * R.A. Fisher (father of design of experiments)
 
 
