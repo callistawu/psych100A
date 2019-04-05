@@ -14,7 +14,7 @@ westvaco
 
 
 ```
-str(westvaco
+str(westvaco)
 ```
 * structure: tells us number of variables, what types of variables
 * **fire** is a categorical variable
