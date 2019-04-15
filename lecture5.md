@@ -32,7 +32,6 @@ Does marital status explain *more* of age than sex?
 ````
 str(USStates)
 gf_histogram(~FiveVegetables, data=USStates, fill="skyblue", color = "purple", bins=8)
-
 ````
 * what do the numbers on the y-axis mean?
   * number of states
