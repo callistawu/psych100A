@@ -10,8 +10,8 @@
 * how does this improve upon our previous definition of *explain?*
 * y = f(x)
 
-## Compairing models
-* FiveVegetables = **mean** other stuff
+## Comparing models
+* FiveVegetables = **mean** + other stuff
 * Why do we need the empty mode?
   * add explanatory variables to explain error
 `FiveVegetables = *mean* _ other stuff`
@@ -99,3 +99,7 @@ sum(resid(lm(FiveVegetables ~ NULL, data = USStates)))
 ````
 
 ### DATA = MODEL + ERROR
+````
+USStates$modErr <- USStates$empty.predict + USStates$empty.resid
+head(select(USStates, State, FiveVegetables, modErr))
+````
