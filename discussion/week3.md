@@ -1,4 +1,4 @@
-# Week 2 Discussion
+# Week 3 Discussion
 
 ## Purpose of statistical models
 1. help understand DGP
