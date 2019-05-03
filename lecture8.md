@@ -1,4 +1,4 @@
-# Lecture 8 (Wednesday, Week 4)
+# Lecture 8 (Week 4, Wednesday)
 
 ## Error (continued)
 * how much does Penelope the cow weigh?
