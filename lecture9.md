@@ -54,7 +54,7 @@ head(Vegemite.brief)
 ````
 gf_histogram(~spoon2.difference, data=Vegemite.brief, fill="green") %>%
 gf_facet_grid(respect.condition~.) %>%
-gf_vline(xintercept=~mean, data~favstats(spoon2.difference~respect.condition, data=Vegemite.brief))
+gf_vline(xintercept=~mean, data=favstats(spoon2.difference~respect.condition, data=Vegemite.brief))
 ````
 * bimodal distribution, people either ate all of it or nearly none of it
 * what are the possible causes of the mean difference?
