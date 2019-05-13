@@ -38,7 +38,7 @@ favstats(~age, data=profiles)
 gf_histogram(~age, data=profiles, fill="purple")
 ````
 
-## The Five Number SUmmary
+## The Five Number Summary
 ````
 favstats(~ age, data=profiles)
 ````
