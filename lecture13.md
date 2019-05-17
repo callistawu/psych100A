@@ -88,7 +88,7 @@ supernova(lm(outcome~group, data=study))
   * fit the model
   * calculate the mean of each group
   * difference between those group means is b<sub>1</sub>
-* what happens if I run this code again
+* what happens if I run this code again?
   * different random numbers every time will result in different distributions
   * blue vertical line (mean of distribution) is at a different value each time
   * different b<sub>1</sub> each time
