@@ -40,7 +40,7 @@ Sampling distribution of b<sub>1</sub>: What is "count" the count of?
   * yes, PRE is a **sample statistic** (anything you can calculate for a sample)
   * sampling distribution is a distribution for sample statistics
 
-Casting the Question as Model Comparison
+### Casting the Question as Model Comparison
 * what are the chances that our sample estimate b<sub>1</sub> could have come from a DGP with β<sub>1</sub> = 0?
 
 If we change do(1000) to do(500)
@@ -63,7 +63,7 @@ If we change SD of DGP from 15 to 30
 * what effect will it have on probability of randomly selecting a sample with a b<sub>1</sub> > 5?
 * increase
 
-Which distribution should I use: DGP or a sampling distribution?
+## Which distribution should I use: DGP or a sampling distribution?
 > I'm making a new ride for a theme park. It's not safe for anyone less than 60 inches tall to ride on it. What percentage of park attendees will be ineligible to ride?
 * population distribution (DGP)
 * don't want a sampling distribution because we're not asking about the probability of a sample statistic
