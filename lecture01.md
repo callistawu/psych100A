@@ -10,13 +10,13 @@ How do we evaluate his claim?
 * the ages of other people who were laid off, the ages of people who weren't
 * variation in all data
 
-Two approaches
+Two Approaches
 * what comes naturally: see the threat, find the cause
   * we're good at generating causal ideas, but we're not good at considering randomness
 * statistical approach:
   * define a set of "cases" (e.g. all of employees and their ages)
 
-Muller-Lyer illusion - Which line is longer?
+Muller-Lyer Illusion - Which line is longer?
 * the lines appear to be the same size
 * analogous to the situation with statistics
 * statistics gives us a way of evaluating a claim
