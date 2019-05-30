@@ -13,7 +13,7 @@ What makes a data structure tidy?
 
 ## Make a data frame
 * name it Westvaco
-* start with two vectors, use data.frame( )
+* start with two vectors, use `data.frame( )`
 * print out the data frame
 
 ````
