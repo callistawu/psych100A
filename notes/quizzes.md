@@ -99,7 +99,7 @@
 * the standard deviation of the sampling distribution should be smaller than the standard deviation of distracted in the LaptopData study
 * what does the output represent?
   * `distracted.stats <- favstats(LaptopData$distracted)`
-  * `SDoM.sim <- do(1000)*mean(rnorm(n=38, mean=distracted.stats$mean, sd=distracted.stats$sd))
+  * `SDoM.sim <- do(1000)*mean(rnorm(n=38, mean=distracted.stats$mean, sd=distracted.stats$sd))`
   * `head(SDoM.sim)`
   * means of simulated samples of n=38
 * the residuals above and below the regression line should add up to 0
